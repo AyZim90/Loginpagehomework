@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!-- 151549 9d3a53-->
+    <title>Login page homework</title>
+    <style>
+        body {
+    background-image: url('/img/1599896359_5.jpg');
+    background-color: #4f84ec;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+  .container {
+    text-align: center;
+    border-radius: 15px;
+    background-color: #cfcfcf;
+    width: fit-content;
+    padding: 20px;
+  }
+  .icon {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #7e1daa;
+  }
+  input[type="text"] {
+    border-radius: 5px;
+    width: fit-content;
+    padding: 4px;
+    margin: 3px;
+  }
+  .date-input {
+    border-radius: 5px;
+    width: fit-content;
+    padding: 4px;
+    margin: 3px;
+  }
+  input[type="button"] {
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 5px;
+    width: 205px;
+    background-color:#7e1daa;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  input[type="button"]:hover {
+    background-color: #7e1daa;
+  }
+h2{color: #11090a;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Log in</h2>
+        <form action="#">
+          <div>
+            <i class="icon fas fa-user"></i>
+            <input type="text" id="" placeholder="Name">
+          </div>
+          <div>
+            <i class="icon fas fa-envelope"></i>
+            <input type="text" id="" placeholder="Email ID">
+          </div>
+          <div>
+            <i class="icon fas fa-phone"></i>
+            <input type="text" id="" placeholder="Phone">
+          </div>
+          <div>
+            <i class="icon fas fa-key"></i>
+            <input type="text" id="" placeholder="Set Password">
+          </div>
+          <br>
+          <input type="button" value="Log in">
+          <br>
+          <br>
+         <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Create new account</h2> 
+            <div>
+                <input type="text" id="" placeholder="First name">
+            </div>
+            <div>
+                <input type="text" id="" placeholder="Last name">
+            </div>
+            <div>
+                <input type="text" id="" placeholder="Mobile number or email">
+            </div>
+            <div>
+                <input type="text" id="" placeholder="New password">
+            </div>
+            <div>
+                <label for="birthdate" style="font-size: 14px; font-weight: normal;">Birth date:</label>
+                 <input type="date" id="birthdate" class="date-input">
+            </div>
+            <div>
+                <label style="font-size: 14px;">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male" style="font-size: 14px;">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female"style="font-size: 14px;">Famale</label>
+                <br>
+                <br>
+            </div>
+            <div>
+                <input type="button" value="Sign up">
+            </div>
+         </form>
+      </div>  
+
+</body>
+</html>
